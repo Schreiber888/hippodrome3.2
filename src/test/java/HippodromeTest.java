@@ -35,11 +35,18 @@ class HippodromeTest {
     @Test
     public void constructorWithNullListHippodromeTest(){
         List<Horse> list = new ArrayList<>();
-        System.out.println(list);
         Assertions.assertThrows(IllegalArgumentException.class, () -> new Hippodrome(list));
     }
 
-
+    @Test
+    public void constructorWithNullListHippodromeMessageTest(){
+        try {
+            List<Horse> list = new ArrayList<>();
+        } catch (IllegalArgumentException e) {
+            Assertions.assertEquals("Horses cannot be empty.", e.getMessage());
+            System.out.println(e.getMessage());
+        }
+    }
 
     @Test
     void getHorses() {
