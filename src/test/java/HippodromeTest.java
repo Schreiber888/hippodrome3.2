@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -50,6 +52,11 @@ class HippodromeTest {
 
     @Test
     void getHorses() {
+        List<Horse> list = new ArrayList<>();
+        for (int i = 0; i < 30; i++) {
+            list.add(new Horse("Horse № "+ i, ThreadLocalRandom.current().nextDouble())); //проверить число
+        }
+        Assertions.assertEquals(30, list.size());
     }
 
     @Test
