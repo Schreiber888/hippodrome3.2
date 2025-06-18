@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
@@ -54,7 +55,7 @@ class HippodromeTest {
     void getHorses() {
         List<Horse> list = new ArrayList<>();
         for (int i = 0; i < 30; i++) {
-            list.add(new Horse("Horse № "+ i, ThreadLocalRandom.current().nextDouble())); //проверить число
+            list.add(new Horse("Horse № "+ i, ThreadLocalRandom.current().nextDouble(0.2,3))); //проверить число
         }
         Assertions.assertEquals(30, list.size());
     }
@@ -65,5 +66,11 @@ class HippodromeTest {
 
     @Test
     void getWinner() {
+        int max = 4;
+        List<Horse> list = new ArrayList<>();
+        for (int i = 0; i <= max; i++) {
+            list.add(new Horse("Horse № "+ i, 1, i));
+        }
+        Assertions.assertEquals(new Hippodrome(list).getWinner(), list.get(max));
     }
 }
