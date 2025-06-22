@@ -12,9 +12,11 @@ import java.util.concurrent.ThreadLocalRandom;
 import static org.junit.jupiter.api.Assertions.*;
 
 class HippodromeTest {
+    private static List<Horse> list;
 
     @BeforeEach
     void setUp() {
+        list = new ArrayList<>();
     }
 
     @AfterEach
@@ -37,13 +39,11 @@ class HippodromeTest {
 
     @Test
     public void constructorWithNullListHippodromeTest(){
-        List<Horse> list = new ArrayList<>();
         Assertions.assertThrows(IllegalArgumentException.class, () -> new Hippodrome(list));
     }
 
     @Test
     public void constructorWithNullListHippodromeMessageTest(){
-        List<Horse> list = new ArrayList<>();
         try {
             new Hippodrome(list);
         } catch (Exception e) {
@@ -53,7 +53,6 @@ class HippodromeTest {
 
     @Test
     void getHorses() {
-        List<Horse> list = new ArrayList<>();
         for (int i = 0; i < 30; i++) {
             list.add(new Horse("Horse № "+ i, ThreadLocalRandom.current().nextDouble(0.2,3))); //проверить число
         }
@@ -67,7 +66,6 @@ class HippodromeTest {
     @Test
     void getWinner() {
         int max = 4;
-        List<Horse> list = new ArrayList<>();
         for (int i = 0; i <= max; i++) {
             list.add(new Horse("Horse № "+ i, 1, i));
         }
