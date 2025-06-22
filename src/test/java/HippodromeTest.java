@@ -2,6 +2,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
+import org.mockito.Mockito;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -59,10 +61,18 @@ class HippodromeTest {
         Assertions.assertEquals(30, list.size());
     }
 
-    @Test
+    /*@Test
     void move() {
-
-    }
+        List<Horse> horses = new ArrayList<>();
+        for (int i = 0; i < 50; i++) {
+            horses.add(Mockito.mock(Horse.class));
+        }
+        Hippodrome hippodrome = new Hippodrome(horses);
+        hippodrome.move();
+        for (Horse hors : horses) {
+            Mockito.verify(hors).move();
+        }
+    }*/
 
     @Test
     void getWinner() {
