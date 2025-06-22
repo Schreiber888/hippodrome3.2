@@ -4,14 +4,19 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+import org.mockito.MockedStatic;
+import org.mockito.Mockito;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class HorseTest {
 
+    private static Horse horse;
+
     @BeforeEach
-    void setUp() {
-        Horse horse;
+    void setUp()
+    {
+         horse = new Horse("Any", 2, 5.1);;
     }
 
     @AfterEach
@@ -78,19 +83,16 @@ class HorseTest {
 
     @Test
     void getNameTest() {
-        Horse horse = new Horse("Any", 2, 5.1);
         Assertions.assertEquals(horse.getName(), "Any");
     }
 
     @Test
     void getSpeedTest() {
-        Horse horse = new Horse("Any", 2, 5.1);
         Assertions.assertEquals(horse.getSpeed(), 2);
     }
 
     @Test
     void getDistanceTest() {
-        Horse horse = new Horse("Any", 2, 5.1);
         Assertions.assertEquals(horse.getDistance(), 5.1);
     }
 
@@ -100,11 +102,28 @@ class HorseTest {
         Assertions.assertEquals(horse.getDistance(), 0);
     }
 
-    @Test
-    void moveTest() {
-    }
 
     @Test
+    void moveCallMethodTest() {
+        Horse horse = new Horse("Any", 2, 123);
+        try (MockedStatic<Horse> mockedHorse = Mockito.mockStatic(Horse.class)) {
+            horse.move();
+            mockedHorse.verify(() -> Horse.getRandomDouble(0.2, 0.9));
+        }
+    }
+
+    @ParameterizedTest
+    @ValueSource(doubles = {0.2, 0.3, 0.4, 0.5})
+    void moveCallMethodWithParameterTest(double parameter) {
+        try (MockedStatic<Horse> mockedHorse = Mockito.mockStatic(Horse.class)) {
+            mockedHorse.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(parameter);
+            double actualDistance = horse.getDistance() + horse.getSpeed()*parameter;
+            horse.move();
+            Assertions.assertEquals(horse.getDistance(), actualDistance);
+        }
+    }
+
+   @Test
     void getRandomDoubleTest() {
     }
 }
