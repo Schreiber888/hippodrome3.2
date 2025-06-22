@@ -1,3 +1,5 @@
+import org.slf4j.Logger;
+
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -10,6 +12,7 @@ public class Hippodrome {
 
     public Hippodrome(List<Horse> horses) {
         if (isNull(horses)) {
+
             throw new IllegalArgumentException("Horses cannot be null.");
         } else if (horses.isEmpty()) {
             throw new IllegalArgumentException("Horses cannot be empty.");
