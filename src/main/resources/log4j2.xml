@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="warn" name="MyApp" packages="">
     <Appenders>
-        <RollingFile name="RollingFile" fileName="logs/hippodrome.log" filePattern="logs/hippodrome-%d{MM-dd-yyyy}-%i.log.gz">
-            <PatternLayout>
-                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+        <RollingFile name="RollingFile" fileName="logs/hippodrome.log" filePattern="logs/hippodrome.%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>                                       <!--Формирует то, как будет сообщение выводиться в лог-->
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>         <!--дата время   уроаень сообщения   что-то название потока    сообщение и перевод строки-->
             </PatternLayout>
             <Policies>
-                <TimeBasedTriggeringPolicy/>
+<!--                <TimeBasedTriggeringPolicy/>-->
+                <TimeBasedTriggeringPolicy interval = "1" />      <!--Каждый день создаёт новый файл-->
                 <SizeBasedTriggeringPolicy size="250 MB"/>
             </Policies>
         </RollingFile>
