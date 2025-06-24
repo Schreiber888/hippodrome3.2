@@ -1,20 +1,10 @@
-2025-06-23 20:54:39,236 DEBUG Horse [main] Создание Horse, имя [Bucephalus], скорость [2.4]
-2025-06-23 20:54:39,240 DEBUG Horse [main] Создание Horse, имя [Ace of Spades], скорость [2.5]
-2025-06-23 20:54:39,240 DEBUG Horse [main] Создание Horse, имя [Zephyr], скорость [2.6]
-2025-06-23 20:54:39,241 DEBUG Horse [main] Создание Horse, имя [Blaze], скорость [2.7]
-2025-06-23 20:54:39,241 DEBUG Horse [main] Создание Horse, имя [Lobster], скорость [2.8]
-2025-06-23 20:54:39,241 DEBUG Horse [main] Создание Horse, имя [Pegasus], скорость [2.9]
-2025-06-23 20:54:39,242 DEBUG Horse [main] Создание Horse, имя [Cherry], скорость [3.0]
-2025-06-23 20:54:39,243 DEBUG Hippodrome [main] Создание Hippodrome, лошадей [7]
-2025-06-23 20:54:39,243 INFO Main [main] Начало скачек. Количество участников: 7
-2025-06-23 20:54:59,912 INFO Main [main] Окончание скачек. Победитель: Cherry
-2025-06-23 21:17:54,746 DEBUG Horse [main] Создание Horse, имя [Bucephalus], скорость [2.4]
-2025-06-23 21:17:54,750 DEBUG Horse [main] Создание Horse, имя [Ace of Spades], скорость [2.5]
-2025-06-23 21:17:54,750 DEBUG Horse [main] Создание Horse, имя [Zephyr], скорость [2.6]
-2025-06-23 21:17:54,750 DEBUG Horse [main] Создание Horse, имя [Blaze], скорость [2.7]
-2025-06-23 21:17:54,751 DEBUG Horse [main] Создание Horse, имя [Lobster], скорость [2.8]
-2025-06-23 21:17:54,751 DEBUG Horse [main] Создание Horse, имя [Pegasus], скорость [2.9]
-2025-06-23 21:17:54,751 DEBUG Horse [main] Создание Horse, имя [Cherry], скорость [3.0]
-2025-06-23 21:17:54,752 DEBUG Hippodrome [main] Создание Hippodrome, лошадей [7]
-2025-06-23 21:17:54,752 INFO Main [main] Начало скачек. Количество участников: 7
-2025-06-23 21:18:15,679 INFO Main [main] Окончание скачек. Победитель: Cherry
+2025-06-24 21:33:30,545 DEBUG Horse [main] Создание Horse, имя [Bucephalus], скорость [2.4]
+2025-06-24 21:33:30,560 DEBUG Horse [main] Создание Horse, имя [Ace of Spades], скорость [2.5]
+2025-06-24 21:33:30,560 DEBUG Horse [main] Создание Horse, имя [Zephyr], скорость [2.6]
+2025-06-24 21:33:30,561 DEBUG Horse [main] Создание Horse, имя [Blaze], скорость [2.7]
+2025-06-24 21:33:30,561 DEBUG Horse [main] Создание Horse, имя [Lobster], скорость [2.8]
+2025-06-24 21:33:30,561 DEBUG Horse [main] Создание Horse, имя [Pegasus], скорость [2.9]
+2025-06-24 21:33:30,562 DEBUG Horse [main] Создание Horse, имя [Cherry], скорость [3.0]
+2025-06-24 21:33:30,563 DEBUG Hippodrome [main] Создание Hippodrome, лошадей [7]
+2025-06-24 21:33:30,563 INFO Main [main] Начало скачек. Количество участников: 7
+2025-06-24 21:33:51,529 INFO Main [main] Окончание скачек. Победитель: Lobster

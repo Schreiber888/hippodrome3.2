@@ -2,7 +2,7 @@
 <Configuration status="warn" name="MyApp" packages="">
     <Appenders>
         <RollingFile name="RollingFile" fileName="logs/hippodrome.log"
-                     filePattern="logs/hippodrome.%d{MM-dd-yyyy}-%i.log.gz">
+                     filePattern="logs/hippodrome.%d{MM-dd-yyyy}.log.gz">
             <PatternLayout>                                       <!--Формирует то, как будет сообщение выводиться в лог-->
                 <Pattern>%d %p %c{1.} [%t] %m%n
                 </Pattern>         <!--дата время   уроаень сообщения   что-то название потока    сообщение и перевод строки-->
