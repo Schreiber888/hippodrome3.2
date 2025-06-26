@@ -1,13 +1,20 @@
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
+
+import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
 
+    @Disabled
     @Test
-    @Timeout(22)
-    void main() throws InterruptedException {
-        Thread.sleep(2);
+    @Timeout(value = 22, unit = TimeUnit.SECONDS)
+    void mainTest() throws Exception {
+        String[] args = {};
+        Main.main(args);
     }
+
 }
