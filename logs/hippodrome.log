@@ -237,3 +237,170 @@
 2025-06-26 22:33:53,529 DEBUG Horse [main] Создание Horse, имя [Horse № 4], скорость [1.0]
 2025-06-26 22:33:53,529 DEBUG Hippodrome [main] Создание Hippodrome, лошадей [5]
 2025-06-26 22:33:53,533 ERROR Hippodrome [main] Horses list is empty
+2025-06-26 22:36:24,668 ERROR Hippodrome [main] Horses list is null
+2025-06-26 22:36:24,689 ERROR Hippodrome [main] Horses list is null
+2025-06-26 22:36:24,691 ERROR Hippodrome [main] Horses list is empty
+2025-06-26 22:36:24,697 DEBUG Horse [main] Создание Horse, имя [Horse № 0], скорость [0.4322815885418689]
+2025-06-26 22:36:24,698 DEBUG Horse [main] Создание Horse, имя [Horse № 1], скорость [2.144732085261966]
+2025-06-26 22:36:24,698 DEBUG Horse [main] Создание Horse, имя [Horse № 2], скорость [1.9725025144783987]
+2025-06-26 22:36:24,698 DEBUG Horse [main] Создание Horse, имя [Horse № 3], скорость [1.9837018761002148]
+2025-06-26 22:36:24,699 DEBUG Horse [main] Создание Horse, имя [Horse № 4], скорость [1.7793166446440158]
+2025-06-26 22:36:24,699 DEBUG Horse [main] Создание Horse, имя [Horse № 5], скорость [1.9882145830484648]
+2025-06-26 22:36:24,699 DEBUG Horse [main] Создание Horse, имя [Horse № 6], скорость [2.7914365853774594]
+2025-06-26 22:36:24,699 DEBUG Horse [main] Создание Horse, имя [Horse № 7], скорость [0.22322129738064006]
+2025-06-26 22:36:24,699 DEBUG Horse [main] Создание Horse, имя [Horse № 8], скорость [1.8910384589823466]
+2025-06-26 22:36:24,699 DEBUG Horse [main] Создание Horse, имя [Horse № 9], скорость [0.9182043560117785]
+2025-06-26 22:36:24,699 DEBUG Horse [main] Создание Horse, имя [Horse № 10], скорость [2.403601025384128]
+2025-06-26 22:36:24,700 DEBUG Horse [main] Создание Horse, имя [Horse № 11], скорость [2.9550752396920483]
+2025-06-26 22:36:24,700 DEBUG Horse [main] Создание Horse, имя [Horse № 12], скорость [1.8519224868625819]
+2025-06-26 22:36:24,700 DEBUG Horse [main] Создание Horse, имя [Horse № 13], скорость [0.6370856804894216]
+2025-06-26 22:36:24,700 DEBUG Horse [main] Создание Horse, имя [Horse № 14], скорость [1.9682197086083801]
+2025-06-26 22:36:24,700 DEBUG Horse [main] Создание Horse, имя [Horse № 15], скорость [0.42329186832936005]
+2025-06-26 22:36:24,700 DEBUG Horse [main] Создание Horse, имя [Horse № 16], скорость [1.1263652973940952]
+2025-06-26 22:36:24,700 DEBUG Horse [main] Создание Horse, имя [Horse № 17], скорость [1.642739736871649]
+2025-06-26 22:36:24,701 DEBUG Horse [main] Создание Horse, имя [Horse № 18], скорость [1.7564173970740002]
+2025-06-26 22:36:24,701 DEBUG Horse [main] Создание Horse, имя [Horse № 19], скорость [0.5155600713035575]
+2025-06-26 22:36:24,701 DEBUG Horse [main] Создание Horse, имя [Horse № 20], скорость [1.0683095349273517]
+2025-06-26 22:36:24,701 DEBUG Horse [main] Создание Horse, имя [Horse № 21], скорость [1.0758713050882844]
+2025-06-26 22:36:24,701 DEBUG Horse [main] Создание Horse, имя [Horse № 22], скорость [0.7830958833858246]
+2025-06-26 22:36:24,701 DEBUG Horse [main] Создание Horse, имя [Horse № 23], скорость [0.34879765525846845]
+2025-06-26 22:36:24,702 DEBUG Horse [main] Создание Horse, имя [Horse № 24], скорость [2.5739091165867243]
+2025-06-26 22:36:24,702 DEBUG Horse [main] Создание Horse, имя [Horse № 25], скорость [0.6811531717912283]
+2025-06-26 22:36:24,702 DEBUG Horse [main] Создание Horse, имя [Horse № 26], скорость [0.22329265437543896]
+2025-06-26 22:36:24,702 DEBUG Horse [main] Создание Horse, имя [Horse № 27], скорость [1.4868593262883667]
+2025-06-26 22:36:24,702 DEBUG Horse [main] Создание Horse, имя [Horse № 28], скорость [2.6535495205469384]
+2025-06-26 22:36:24,702 DEBUG Horse [main] Создание Horse, имя [Horse № 29], скорость [0.6880181351401933]
+2025-06-26 22:36:24,704 DEBUG Horse [main] Создание Horse, имя [Horse № 0], скорость [1.0]
+2025-06-26 22:36:24,705 DEBUG Horse [main] Создание Horse, имя [Horse № 1], скорость [1.0]
+2025-06-26 22:36:24,705 DEBUG Horse [main] Создание Horse, имя [Horse № 2], скорость [1.0]
+2025-06-26 22:36:24,705 DEBUG Horse [main] Создание Horse, имя [Horse № 3], скорость [1.0]
+2025-06-26 22:36:24,705 DEBUG Horse [main] Создание Horse, имя [Horse № 4], скорость [1.0]
+2025-06-26 22:36:24,705 DEBUG Hippodrome [main] Создание Hippodrome, лошадей [5]
+2025-06-26 22:36:24,708 ERROR Hippodrome [main] Horses list is empty
+2025-06-26 22:36:36,618 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:36,631 ERROR Horse [main] Speed is negative
+2025-06-26 22:36:36,656 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:36,718 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:36,728 ERROR Horse [main] Name is blank
+2025-06-26 22:36:36,734 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:36,735 ERROR Horse [main] Name is blank
+2025-06-26 22:36:36,737 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:36,738 ERROR Horse [main] Name is blank
+2025-06-26 22:36:36,740 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:36,741 ERROR Horse [main] Name is blank
+2025-06-26 22:36:36,743 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:36,743 ERROR Horse [main] Name is blank
+2025-06-26 22:36:36,749 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,873 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,876 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,880 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,882 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,883 ERROR Horse [main] Name is null
+2025-06-26 22:36:37,885 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,886 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,887 ERROR Horse [main] Speed is negative
+2025-06-26 22:36:37,888 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,889 ERROR Horse [main] Name is null
+2025-06-26 22:36:37,891 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,892 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,893 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,904 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,906 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,906 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,907 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,908 ERROR Horse [main] Distance is negative
+2025-06-26 22:36:37,909 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,910 ERROR Horse [main] Distance is negative
+2025-06-26 22:36:37,914 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,914 ERROR Horse [main] Name is blank
+2025-06-26 22:36:37,916 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,916 ERROR Horse [main] Name is blank
+2025-06-26 22:36:37,918 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,918 ERROR Horse [main] Name is blank
+2025-06-26 22:36:37,921 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,921 ERROR Horse [main] Name is blank
+2025-06-26 22:36:37,924 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-26 22:36:37,924 ERROR Horse [main] Name is blank
+2025-06-28 19:09:01,758 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:01,774 ERROR Horse [main] Speed is negative
+2025-06-28 19:09:01,796 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:01,857 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:01,868 ERROR Horse [main] Name is blank
+2025-06-28 19:09:01,875 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:01,876 ERROR Horse [main] Name is blank
+2025-06-28 19:09:01,878 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:01,879 ERROR Horse [main] Name is blank
+2025-06-28 19:09:01,881 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:01,881 ERROR Horse [main] Name is blank
+2025-06-28 19:09:01,884 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:01,884 ERROR Horse [main] Name is blank
+2025-06-28 19:09:01,889 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,082 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,087 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,093 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,098 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,098 ERROR Horse [main] Name is null
+2025-06-28 19:09:03,101 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,101 ERROR Horse [main] Speed is negative
+2025-06-28 19:09:03,104 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,104 ERROR Horse [main] Name is null
+2025-06-28 19:09:03,106 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,109 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,109 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,121 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,123 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,124 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,125 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,126 ERROR Horse [main] Distance is negative
+2025-06-28 19:09:03,127 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,128 ERROR Horse [main] Distance is negative
+2025-06-28 19:09:03,132 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,132 ERROR Horse [main] Name is blank
+2025-06-28 19:09:03,134 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,135 ERROR Horse [main] Name is blank
+2025-06-28 19:09:03,137 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,137 ERROR Horse [main] Name is blank
+2025-06-28 19:09:03,139 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,139 ERROR Horse [main] Name is blank
+2025-06-28 19:09:03,142 DEBUG Horse [main] Создание Horse, имя [Any], скорость [2.0]
+2025-06-28 19:09:03,142 ERROR Horse [main] Name is blank
+2025-06-28 19:11:28,286 ERROR Hippodrome [main] Horses list is null
+2025-06-28 19:11:28,315 ERROR Hippodrome [main] Horses list is null
+2025-06-28 19:11:28,318 ERROR Hippodrome [main] Horses list is empty
+2025-06-28 19:11:28,326 DEBUG Horse [main] Создание Horse, имя [Horse № 0], скорость [2.8093334408787523]
+2025-06-28 19:11:28,326 DEBUG Horse [main] Создание Horse, имя [Horse № 1], скорость [2.291176432176625]
+2025-06-28 19:11:28,327 DEBUG Horse [main] Создание Horse, имя [Horse № 2], скорость [2.7347526548494705]
+2025-06-28 19:11:28,327 DEBUG Horse [main] Создание Horse, имя [Horse № 3], скорость [1.724112935074279]
+2025-06-28 19:11:28,327 DEBUG Horse [main] Создание Horse, имя [Horse № 4], скорость [0.7691420141633147]
+2025-06-28 19:11:28,327 DEBUG Horse [main] Создание Horse, имя [Horse № 5], скорость [1.4984377422771593]
+2025-06-28 19:11:28,328 DEBUG Horse [main] Создание Horse, имя [Horse № 6], скорость [2.576501560348213]
+2025-06-28 19:11:28,328 DEBUG Horse [main] Создание Horse, имя [Horse № 7], скорость [0.6388638852721829]
+2025-06-28 19:11:28,328 DEBUG Horse [main] Создание Horse, имя [Horse № 8], скорость [0.5070143475051339]
+2025-06-28 19:11:28,328 DEBUG Horse [main] Создание Horse, имя [Horse № 9], скорость [2.5038236795452335]
+2025-06-28 19:11:28,328 DEBUG Horse [main] Создание Horse, имя [Horse № 10], скорость [1.4264275693615127]
+2025-06-28 19:11:28,328 DEBUG Horse [main] Создание Horse, имя [Horse № 11], скорость [1.603308943340428]
+2025-06-28 19:11:28,328 DEBUG Horse [main] Создание Horse, имя [Horse № 12], скорость [0.9396621330339121]
+2025-06-28 19:11:28,329 DEBUG Horse [main] Создание Horse, имя [Horse № 13], скорость [1.961149802036322]
+2025-06-28 19:11:28,329 DEBUG Horse [main] Создание Horse, имя [Horse № 14], скорость [1.9499364510040609]
+2025-06-28 19:11:28,329 DEBUG Horse [main] Создание Horse, имя [Horse № 15], скорость [2.7573503502470142]
+2025-06-28 19:11:28,329 DEBUG Horse [main] Создание Horse, имя [Horse № 16], скорость [1.4668593593996437]
+2025-06-28 19:11:28,329 DEBUG Horse [main] Создание Horse, имя [Horse № 17], скорость [2.6170096657651056]
+2025-06-28 19:11:28,329 DEBUG Horse [main] Создание Horse, имя [Horse № 18], скорость [0.7747470847008513]
+2025-06-28 19:11:28,329 DEBUG Horse [main] Создание Horse, имя [Horse № 19], скорость [0.8513592390562568]
+2025-06-28 19:11:28,330 DEBUG Horse [main] Создание Horse, имя [Horse № 20], скорость [2.0923938533295416]
+2025-06-28 19:11:28,330 DEBUG Horse [main] Создание Horse, имя [Horse № 21], скорость [2.0195799291474517]
+2025-06-28 19:11:28,330 DEBUG Horse [main] Создание Horse, имя [Horse № 22], скорость [2.2181858768459732]
+2025-06-28 19:11:28,330 DEBUG Horse [main] Создание Horse, имя [Horse № 23], скорость [1.340105141964419]
+2025-06-28 19:11:28,330 DEBUG Horse [main] Создание Horse, имя [Horse № 24], скорость [2.8467396174043698]
+2025-06-28 19:11:28,330 DEBUG Horse [main] Создание Horse, имя [Horse № 25], скорость [1.7305621442988168]
+2025-06-28 19:11:28,330 DEBUG Horse [main] Создание Horse, имя [Horse № 26], скорость [0.3896652856923992]
+2025-06-28 19:11:28,331 DEBUG Horse [main] Создание Horse, имя [Horse № 27], скорость [2.113644365291142]
+2025-06-28 19:11:28,331 DEBUG Horse [main] Создание Horse, имя [Horse № 28], скорость [1.2665954441076055]
+2025-06-28 19:11:28,331 DEBUG Horse [main] Создание Horse, имя [Horse № 29], скорость [0.364632507788348]
+2025-06-28 19:11:28,333 DEBUG Horse [main] Создание Horse, имя [Horse № 0], скорость [1.0]
+2025-06-28 19:11:28,334 DEBUG Horse [main] Создание Horse, имя [Horse № 1], скорость [1.0]
+2025-06-28 19:11:28,334 DEBUG Horse [main] Создание Horse, имя [Horse № 2], скорость [1.0]
+2025-06-28 19:11:28,334 DEBUG Horse [main] Создание Horse, имя [Horse № 3], скорость [1.0]
+2025-06-28 19:11:28,334 DEBUG Horse [main] Создание Horse, имя [Horse № 4], скорость [1.0]
+2025-06-28 19:11:28,334 DEBUG Hippodrome [main] Создание Hippodrome, лошадей [5]
+2025-06-28 19:11:28,338 ERROR Hippodrome [main] Horses list is empty

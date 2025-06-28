@@ -7,7 +7,6 @@ import org.junit.jupiter.params.provider.ValueSource;
 import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class HorseTest {
 
@@ -16,7 +15,7 @@ class HorseTest {
     @BeforeEach
     void setUp()
     {
-         horse = new Horse("Any", 2, 5.1);;
+         horse = new Horse("Any", 2, 5.1);
     }
 
     @AfterEach
@@ -123,7 +122,4 @@ class HorseTest {
         }
     }
 
-   @Test
-    void getRandomDoubleTest() {
-    }
 }

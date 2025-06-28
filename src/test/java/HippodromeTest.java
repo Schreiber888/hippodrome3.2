@@ -60,7 +60,7 @@ class HippodromeTest {
         List<Horse> horses = new ArrayList<>();
         for (int i = 0; i < 50; i++) {
             horses.add(Mockito.mock(Horse.class));
-        }
+        }                                                   не получается
         Hippodrome hippodrome = new Hippodrome(horses);
         hippodrome.move();
         for (Horse hors : horses) {
